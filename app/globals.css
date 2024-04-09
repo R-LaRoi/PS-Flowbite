@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Syncopate";
+  src:
+    local("Syncopate"),
+    url(./syncopate-regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Syncopate-Bold";
+  src:
+    local("Syncopate"),
+    url(./syncopate-bold.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Syncopate";
+  src:
+    local("Syncopate"),
+    url(./syncopate-regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src:
+    local("Poppins-Light"),
+    url(./Poppins-ExtraLight.otf) format("opentype");
+}
+
+.content-with-sidebars {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr;
+  padding-top: 15%;
+  height: 100vh;
+  width: 100%;
+  gap: 1rem;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.--nav {
+  position: fixed;
+  font-family: "Syncopate-Bold", sans-serif;
+  font-size: 9vw;
+  letter-spacing: 1px;
+  color: rgb(45, 45, 45);
+  background-color: white;
+  width: 100%;
+}
+/* columns */
+/* .content-with-sidebars > * {
+  width: 100%;
+  padding: 1rem;
+} */
+
+.sidebar-links {
+  font-family: "Poppins-Light";
+  font-size: 2vw;
+  padding-top: 10%;
+  margin: 5%;
+}
+/* tablet breakpoint */
+@media (min-width: 768px) {
+  /* .content-with-sidebars > * {
+    width: 50%;
+  }
+  .content-with-sidebars > *:nth-child(1) {
+    width: 100%;
+  } */
+}
+
+/* desktop breakpoint */
+@media (min-width: 1024px) {
+  /* .content-with-sidebars > * {
+    width: 25%;
+  }
+  .content-with-sidebars > *:nth-child(1) {
+    width: 50%;
+  }
+  .content-with-sidebars > *:nth-child(2) {
+    order: -1;
+  } */
+}
