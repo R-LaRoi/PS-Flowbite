@@ -1,0 +1,58 @@
+.ct-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  padding-left: 2rem;
+  padding-top: 15%;
+  text-align: left;
+  max-width: 1600px;
+}
+
+.ct-title {
+  font-family: "Syncopate-Bold", sans-serif;
+  font-size: 5vw;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.ct-text {
+  font-family: "Poppins-Light";
+  padding-top: 2rem;
+}
+
+.ct-section-two {
+  margin-top: 1rem;
+  padding: 10%;
+  border-top: 50px solid rgb(25, 26, 25);
+  text-align: center;
+  background-color: rgb(24, 24, 24);
+  font-family: "Poppins-Light";
+}
+
+.ct-col-1 {
+  padding: rem;
+}
+
+.ct-col-2 {
+  font-family: "Syncopate-Bold";
+  padding-top: 2rem;
+  padding: 3rem;
+}
+
+@media (max-width: 576px) {
+  .ct-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0rem;
+    padding-top: 50%;
+    text-align: center;
+    height: max-content;
+  }
+}
+
+/* tablet breakpoint */
+@media (min-width: 768px) {
+}
+
+/* desktop breakpoint */
+@media (min-width: 1024px) {
+}
