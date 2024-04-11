@@ -1,7 +1,10 @@
+"use client";
+
 import React from "react";
 import Nav from "../../Nav";
 import Footer from "../../Footer";
 import "./contact.css";
+
 export default function Contact() {
   return (
     <>
@@ -143,5 +146,3 @@ export default function Contact() {
     </>
   );
 }
-
-// https://github.com/R-LaRoi/tsam-vite/assets/114012059/5aa9e3cc-0f7c-4dab-81bf-86cd1436d8da

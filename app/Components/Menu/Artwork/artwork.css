@@ -12,15 +12,12 @@
   display: none;
 }
 
-.gallery-mb {
-}
-
 @media screen and (max-width: 576px) {
   .art-img-scroll {
     padding-top: 20%;
   }
 
   .gallery-mb {
-    margin-left: 10%;
+    margin-left: 5%;
   }
 }

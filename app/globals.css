@@ -36,19 +36,6 @@
     local("Poppins"),
     url(./Poppins-Regular.otf) format("opentype");
 }
-.content-with-sidebars {
-}
-
-.--nav {
-  position: fixed;
-  font-family: "Smooch", sans-serif;
-  font-size: 7vw;
-  letter-spacing: 1px;
-  color: rgb(45, 45, 45);
-  background-color: white;
-  width: 100%;
-  z-index: 99;
-}
 
 .nav-links {
   display: flex;
@@ -68,19 +55,6 @@
   top: 2rem;
   text-shadow: horizontal-offset vertical-offset blur color;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-}
-
-/* .sidebar-links {
-  font-family: "Smooch", sans-serif;
-  font-size: 1.5vw;
-  padding-top: 20%;
-  margin: 5%;
-  line-height: 1;
-  letter-spacing: 2px;
-} */
-
-.mb-hero {
-  display: none;
 }
 
 .name {
@@ -119,5 +93,6 @@
 
 .nav-text {
   font-family: "Smooch";
-  font-size: 2vw;
+  font-size: 2rem;
+  text-transform: lowercase;
 }

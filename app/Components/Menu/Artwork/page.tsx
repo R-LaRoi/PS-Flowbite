@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Nav from "../../Nav";
 import Footer from "../../Footer";
@@ -20,11 +21,11 @@ export default function Artwork() {
   return (
     <>
       <Nav />
-      <section className="bg-white dark:bg-gray-900">
+      <section className=" bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl items-center gap-16 px-4 py-8 lg:grid lg:grid-cols-2 lg:px-6 lg:py-16">
           <div className="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
             <h2
-              className="mb-4 text-8xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+              className="mb-4 mt-10 pt-10  text-8xl font-extrabold tracking-tight text-gray-900 dark:text-white"
               style={{ fontFamily: "Smooch" }}
             >
               Artwork

@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
 import Nav from "./Nav";
-import { Carousel } from "flowbite-react";
+
 import Footer from "./Footer";
-import Link from "next/link";
 
 export default function Hero() {
   return (
