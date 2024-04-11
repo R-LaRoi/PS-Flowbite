@@ -60,28 +60,12 @@
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   text-shadow: horizontal-offset vertical-offset blur color;
 }
-/* tablet breakpoint */
-@media (max-width: 576px) {
-  .header-text {
-    font-size: 6rem;
-    line-height: 0.8;
-  }
-
-  .mb-header {
-    font-family: "Smooch";
-    line-height: 0.8;
-  }
-}
 
 .sub-text {
   font-family: "Poppins-light";
   font-size: 1rem;
   position: relative;
   bottom: 25px;
-}
-
-/* desktop breakpoint */
-@media (min-width: 1024px) {
 }
 
 .nav-text {
@@ -117,4 +101,20 @@
   to {
     opacity: 1;
   }
+}
+/* tablet breakpoint */
+@media (max-width: 576px) {
+  .header-text {
+    font-size: 6rem;
+    line-height: 0.8;
+  }
+
+  .mb-header {
+    font-family: "Smooch";
+    line-height: 0.8;
+  }
+}
+
+/* desktop breakpoint */
+@media (min-width: 1024px) {
 }
