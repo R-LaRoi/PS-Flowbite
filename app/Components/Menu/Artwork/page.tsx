@@ -8,6 +8,7 @@ export default function Artwork() {
     if (index < 10) {
       return (
         <img
+          key={index}
           className=" gallery-mb inline-block h-screen px-5"
           src={artwk?.photo}
         />
