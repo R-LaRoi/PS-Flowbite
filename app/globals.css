@@ -145,9 +145,7 @@
   font-family: "Poppins-light";
   font-size: 1rem;
   position: relative;
-  bottom: 40px;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-  text-shadow: horizontal-offset vertical-offset blur color;
+  bottom: 25px;
 }
 
 /* desktop breakpoint */

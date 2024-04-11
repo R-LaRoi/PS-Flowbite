@@ -9,7 +9,7 @@ export default function Artwork() {
       return (
         <img
           key={index}
-          className=" gallery-mb max-w-l mb-8 mr-5 inline-block  h-96  rounded-lg  shadow-xl "
+          className=" gallery-mb max-w-l mb-8 mr-5 inline-block  h-96  rounded-lg shadow-xl"
           src={artwk?.photo}
         />
       );
