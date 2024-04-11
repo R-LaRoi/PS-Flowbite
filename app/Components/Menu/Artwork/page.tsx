@@ -6,7 +6,12 @@ import imgData from "../../imgData";
 export default function Artwork() {
   let artImg = imgData.map((artwk, index) => {
     if (index < 10) {
-      return <img className=" inline-block h-screen px-5" src={artwk?.photo} />;
+      return (
+        <img
+          className=" gallery-mb inline-block h-screen px-5"
+          src={artwk?.photo}
+        />
+      );
     }
   });
 

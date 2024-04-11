@@ -10,12 +10,12 @@ export default function Contact() {
         <div className="ct-container h-screen">
           <div className="ct-col-1 ">
             <img
-              className="h-15 w-15 mx-auto rounded-full p-8"
+              className="h-15 w-15 mx-auto mt-10 rounded-full p-6"
               src="https://github.com/R-LaRoi/tsam-vite/assets/114012059/5aa9e3cc-0f7c-4dab-81bf-86cd1436d8da"
             ></img>
           </div>
           <div className="ct-col-2">
-            <h1 className="ct-title text-gray-900">
+            <h1 className="ct-title text-gray-800">
               get to know <br /> patricia stroy
             </h1>
             <p className="ct-text">
@@ -26,9 +26,7 @@ export default function Contact() {
               practice encompasses a variety of art forms including drawing,
               painting and graphic arts. Weaving technology throughout her
               process has led her to design extraordinary vibrant patterns. She
-              is currently accepting commissions. If you are interested in
-              requesting original works or prints, please feel free to connect
-              via email.{" "}
+              is currently accepting commissions.{" "}
             </p>
           </div>
         </div>
@@ -46,7 +44,7 @@ export default function Contact() {
           <article>
             <h2 className="p-6  text-2xl text-slate-50">
               Would love to hear from you! If you are interested in requesting
-              original works or prints, please feel free to connect with me.{" "}
+              original works or prints, please feel free to connect via email.{" "}
             </h2>
             <br />
             <br />

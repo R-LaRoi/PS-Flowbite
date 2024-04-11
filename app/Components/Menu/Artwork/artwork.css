@@ -12,8 +12,10 @@
 
 @media screen and (max-width: 576px) {
   .art-img-scroll {
-    list-style: none;
-    padding-top: 30%;
-    /* height: 80vh; */
+    padding-top: 50%;
+  }
+
+  .gallery-mb {
+    height: 70vh;
   }
 }
