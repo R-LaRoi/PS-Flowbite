@@ -95,49 +95,14 @@
 }
 /* tablet breakpoint */
 @media (max-width: 576px) {
-  .mb-hero {
-    display: block;
-  }
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    font-family: "Smooch", sans-serif;
-    font-size: 1rem;
-    gap: 0;
-    padding-top: 1rem;
-  }
-
   .header-text {
-    letter-spacing: 1px;
-    color: rgb(45, 45, 45);
-    background-color: white;
-    width: 100%;
-  }
-
-  .nav-mb {
-    margin-top: 2rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1rem;
-  }
-
-  .header-text,
-  .content-with-sidebars {
-    display: none;
-  }
-
-  .sidebar-links {
-    margin-top: -20%;
-    font-size: 4vw;
+    font-size: 6rem;
+    line-height: 0.8;
   }
 
   .mb-header {
     font-family: "Smooch";
     line-height: 0.8;
-  }
-
-  .name {
   }
 }
 

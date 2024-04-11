@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../../Nav";
+import Footer from "../../Footer";
 import "./contact.css";
 export default function Contact() {
   return (
@@ -138,6 +139,7 @@ export default function Contact() {
           </article>
         </section>
       </section>
+      <Footer />
     </>
   );
 }

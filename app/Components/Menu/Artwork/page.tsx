@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../../Nav";
+import Footer from "../../Footer";
 import "./artwork.css";
 import imgData from "../../imgData";
 
@@ -56,6 +57,7 @@ export default function Artwork() {
           <div className=" ">{artImg}</div>
         </div>{" "}
       </div>
+      <Footer />
     </>
   );
 }
