@@ -3,25 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Syncopate";
+  font-family: "Smooch";
+  src:
+    local("Smooch"),
+    url(./Smooch-Regular.ttf) format("opentype");
+}
+
+/* @font-face {
+  font-family: "Smooch";
   src:
     local("Syncopate"),
     url(./syncopate-regular.ttf) format("opentype");
-}
-
-@font-face {
-  font-family: "Syncopate-Bold";
-  src:
-    local("Syncopate"),
-    url(./syncopate-bold.ttf) format("opentype");
-}
-
-@font-face {
-  font-family: "Syncopate";
-  src:
-    local("Syncopate"),
-    url(./syncopate-regular.ttf) format("opentype");
-}
+} */
 
 @font-face {
   font-family: "Poppins-Light";
@@ -30,21 +23,25 @@
     url(./Poppins-ExtraLight.otf) format("opentype");
 }
 
+@font-face {
+  font-family: "Poppins-Bold";
+  src:
+    local("Poppins-Bold"),
+    url(./Poppins-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src:
+    local("Poppins"),
+    url(./Poppins-Regular.otf) format("opentype");
+}
 .content-with-sidebars {
-  display: grid;
-  grid-template-columns: 0.7fr 1fr 1fr;
-  padding-top: 10%;
-  height: 100vh;
-  width: 100%;
-  gap: 1rem;
-  overflow: hidden;
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 
 .--nav {
   position: fixed;
-  font-family: "Syncopate-Bold", sans-serif;
+  font-family: "Smooch", sans-serif;
   font-size: 7vw;
   letter-spacing: 1px;
   color: rgb(45, 45, 45);
@@ -55,37 +52,47 @@
 
 .nav-links {
   display: flex;
-  font-family: "Syncopate", sans-serif;
+  font-family: "Smooch", sans-serif;
   font-size: 1rem;
   gap: 0.7rem;
   padding-top: 4rem;
 }
 
 .header-text {
-  position: fixed;
-  font-family: "Syncopate-Bold", sans-serif;
-  font-size: 7vw;
-  letter-spacing: 1px;
-  color: rgb(45, 45, 45);
-  background-color: white;
+  /* position: fixed; */
+  font-family: "Smooch", sans-serif;
+  font-size: 9vw;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.863);
   width: 100%;
   top: 2rem;
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
-.sidebar-links {
-  font-family: "Syncopate", sans-serif;
-
+/* .sidebar-links {
+  font-family: "Smooch", sans-serif;
   font-size: 1.5vw;
   padding-top: 20%;
   margin: 5%;
   line-height: 1;
   letter-spacing: 2px;
-}
+} */
 
 .mb-hero {
   display: none;
 }
 
+.name {
+  font-family: "Poppins";
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 40px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: horizontal-offset vertical-offset blur color;
+}
 /* tablet breakpoint */
 @media (max-width: 576px) {
   .mb-hero {
@@ -94,7 +101,7 @@
   .nav-links {
     display: flex;
     flex-direction: column;
-    font-family: "Syncopate", sans-serif;
+    font-family: "Smooch", sans-serif;
     font-size: 1rem;
     gap: 0;
     padding-top: 1rem;
@@ -126,19 +133,28 @@
   }
 
   .mb-header {
-    font-family: "Syncopate-Bold";
+    font-family: "Smooch";
     line-height: 0.8;
   }
 
   .name {
-    font-family: "Syncopate";
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-    /* position: relative;
-    bottom: 40px; */
   }
+}
+
+.sub-text {
+  font-family: "Poppins-light";
+  font-size: 1rem;
+  position: relative;
+  bottom: 40px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: horizontal-offset vertical-offset blur color;
 }
 
 /* desktop breakpoint */
 @media (min-width: 1024px) {
+}
+
+.nav-text {
+  font-family: "Smooch";
+  font-size: 2vw;
 }

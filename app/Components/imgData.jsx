@@ -65,9 +65,14 @@ const imgData = [
   {
     id: 12,
     photo:
-      "https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/784b1957-0271-46a3-9a74-ab628ef08295)",
+      "https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/784b1957-0271-46a3-9a74-ab628ef08295",
   },
-  ,
+
+  {
+    id: 13,
+    photo:
+      "https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/d11f341c-f0cd-456e-94df-10c6b1152106",
+  },
 ];
 
 export default imgData;
