@@ -9,13 +9,6 @@
     url(./Smooch-Regular.ttf) format("opentype");
 }
 
-/* @font-face {
-  font-family: "Smooch";
-  src:
-    local("Syncopate"),
-    url(./syncopate-regular.ttf) format("opentype");
-} */
-
 @font-face {
   font-family: "Poppins-Light";
   src:
@@ -95,4 +88,33 @@
   font-family: "Smooch";
   font-size: 2rem;
   text-transform: lowercase;
+}
+.ct-section-two {
+  margin-top: 1rem;
+  padding: 10%;
+  border-top: 50px solid rgb(25, 26, 25);
+  text-align: center;
+  background-color: rgb(24, 24, 24);
+  font-family: "Poppins-Light";
+}
+
+.ct-title {
+  font-family: "Smooch", sans-serif;
+  font-size: 7vw;
+  line-height: 0.8;
+  color: rgb(64, 62, 61);
+}
+
+.fading {
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

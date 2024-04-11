@@ -7,7 +7,7 @@ import imgData from "../../imgData";
 
 export default function Artwork() {
   let artImg = imgData.map((artwk, index) => {
-    if (index < 10) {
+    if (index < 21) {
       return (
         <img
           key={index}

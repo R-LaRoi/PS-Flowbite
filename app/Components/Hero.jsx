@@ -8,13 +8,13 @@ export default function Hero() {
   return (
     <>
       <Nav />
-      <section className="hero h-screen ">
+      <section className="hero  h-screen">
         <div className="">
           <div className="background-radial-gradient mb-32 text-center lg:text-left">
             <div className="relative h-screen overflow-hidden bg-[url('https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/d11f341c-f0cd-456e-94df-10c6b1152106')] bg-cover bg-[50%] bg-no-repeat">
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.45)] bg-fixed">
                 <div className="flex h-full items-center justify-center">
-                  <div className="header-text text-center">
+                  <div className="header-text fading text-center">
                     Graphic Fine Art
                   </div>
                 </div>
@@ -46,19 +46,19 @@ export default function Hero() {
           <div className="mt-8 grid grid-cols-2 gap-4">
             <img
               className="w-full rounded-lg"
-              src="https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/30b6aaf0-7310-4ba5-ad9d-8ee296c8ba8c"
+              src="https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/fe7f7907-d6db-404b-bbaa-84be4e0dd978"
               alt=" content 1"
             />
             <img
               className="mt-4 w-full rounded-lg lg:mt-10"
-              src="https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/58d8aa51-ba26-47e3-b981-20b72569f462"
+              src="https://github.com/R-LaRoi/PS-Flowbite/assets/114012059/5d6a2bc0-3e0d-4790-bda9-d5878c92a3fd"
               alt=" content 2"
             />
           </div>
         </div>
       </section>
 
-      <section className=" ct-section-two">
+      <section className="ct-section-two">
         <h1 className="ct-title text-slate-50" style={{ color: "white" }}>
           get in touch
         </h1>
@@ -166,31 +166,7 @@ export default function Hero() {
           </article>
         </section>
       </section>
-      {/* <section>
-        <div className="grid grid-cols-3 gap-8 p-8 ">
-          <div>
-            <img
-              className=""
-              src="https://i.postimg.cc/JhSTVqyr/2.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className=""
-              src="https://i.postimg.cc/d3Y4DVmg/9.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className=""
-              src="https://i.postimg.cc/d3Y4DVmg/9.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </section> */}
+
       <Footer />
     </>
   );
