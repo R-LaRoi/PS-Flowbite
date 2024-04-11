@@ -1,5 +1,7 @@
 .art-img-scroll {
   list-style: none;
+  text-align: center;
+
   padding-top: 10%;
 }
 .hide-scroll-bar {
@@ -10,12 +12,15 @@
   display: none;
 }
 
+.gallery-mb {
+}
+
 @media screen and (max-width: 576px) {
   .art-img-scroll {
-    padding-top: 50%;
+    padding-top: 20%;
   }
 
   .gallery-mb {
-    height: 70vh;
+    margin-left: 10%;
   }
 }

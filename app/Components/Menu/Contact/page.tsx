@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../../../Nav";
+import Nav from "../../Nav";
 import "./contact.css";
 export default function Contact() {
   return (
@@ -15,9 +15,7 @@ export default function Contact() {
             ></img>
           </div>
           <div className="ct-col-2">
-            <h1 className="ct-title text-gray-800">
-              get to know <br /> patricia stroy
-            </h1>
+            <h1 className="ct-title text-gray-800">meet pat stroy</h1>
             <p className="ct-text">
               Visual artist, specializing in graphic design. Washington, D.C.
               native Patricia Stroy, dedicated thirty years of service as an
@@ -33,18 +31,16 @@ export default function Contact() {
       </section>
 
       <section className=" ct-section-two">
-        <h1 className="ct-title text-slate-50">get in touch</h1>
+        <h1 className="ct-title text-slate-50" style={{ color: "white" }}>
+          get in touch
+        </h1>
 
-        <section className="mx-auto mb-12 max-w-7xl px-4 sm:px-6 lg:px-4">
-          {/* <img
-            className=" h-15 w-15 mx-auto rounded-full"
-            src="https://github.com/R-LaRoi/tsam-vite/assets/114012059/5aa9e3cc-0f7c-4dab-81bf-86cd1436d8da"
-            alt="Extra large avatar"
-          ></img> */}
+        <section className="mx-auto mb-12 ">
           <article>
-            <h2 className="p-6  text-2xl text-slate-50">
-              Would love to hear from you! If you are interested in requesting
-              original works or prints, please feel free to connect via email.{" "}
+            <h2 className="ct-text p-12 text-slate-50">
+              Would love to hear from you! <br />
+              If you are interested in requesting original works or prints,
+              please feel free to connect via email.{" "}
             </h2>
             <br />
             <br />

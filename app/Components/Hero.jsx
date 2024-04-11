@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Nav from "../Nav";
+import Nav from "./Nav";
 import { Carousel } from "flowbite-react";
 
 import Link from "next/link";
@@ -35,15 +35,27 @@ export default function Hero() {
       </section>
 
       <section>
-        <div class="grid grid-cols-3 gap-8 p-8 ">
+        <div className="grid grid-cols-3 gap-8 p-8 ">
           <div>
-            <img class="" src="https://i.postimg.cc/JhSTVqyr/2.png" alt="" />
+            <img
+              className=""
+              src="https://i.postimg.cc/JhSTVqyr/2.png"
+              alt=""
+            />
           </div>
           <div>
-            <img class="" src="https://i.postimg.cc/d3Y4DVmg/9.png" alt="" />
+            <img
+              className=""
+              src="https://i.postimg.cc/d3Y4DVmg/9.png"
+              alt=""
+            />
           </div>
           <div>
-            <img class="" src="https://i.postimg.cc/d3Y4DVmg/9.png" alt="" />
+            <img
+              className=""
+              src="https://i.postimg.cc/d3Y4DVmg/9.png"
+              alt=""
+            />
           </div>
         </div>
       </section>

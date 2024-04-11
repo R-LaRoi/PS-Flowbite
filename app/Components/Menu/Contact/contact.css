@@ -8,15 +8,15 @@
 }
 
 .ct-title {
-  font-family: "Syncopate-Bold", sans-serif;
-  font-size: 5vw;
-  text-transform: uppercase;
-  line-height: 1;
+  font-family: "Smooch", sans-serif;
+  font-size: 7vw;
+  line-height: 0.8;
+  color: rgb(64, 62, 61);
 }
 
 .ct-text {
-  font-family: "Poppins-Light";
-  padding-top: 2rem;
+  font-family: "Poppins";
+  padding-top: 1rem;
 }
 
 .ct-section-two {
@@ -33,7 +33,7 @@
 }
 
 .ct-col-2 {
-  font-family: "Syncopate-Bold";
+  font-family: "Smooch";
   padding-top: 2rem;
   padding: 5rem;
 }
@@ -43,9 +43,15 @@
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 0rem;
-    padding-top: 50%;
+    padding-top: 20%;
     text-align: center;
     height: max-content;
+  }
+  .ct-title {
+    font-family: "Smooch", sans-serif;
+    font-size: 4rem;
+    line-height: 0.8;
+    color: rgb(64, 62, 61);
   }
 }
 
